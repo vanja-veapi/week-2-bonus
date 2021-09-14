@@ -29,7 +29,7 @@ body
 .align-items-center {align-items: center;}
 .font-weight-600 {font-weight: bold;}
 .text-black {color: var(--blackish-blue) !important;}
-.text-light-gray {color: var(--light-gray) !important; font-size: 17px;}
+.text-light-gray {color: hsla(217, 19%, 35%, 0.5); font-size: 17px;}
 .text-grayish-blue {color: var(--grayish-blue) !important;}
 .box-shadow {box-shadow: 20px 25px 30px rgba(207, 207, 207, 0.2);}
 
@@ -111,15 +111,23 @@ body
     font-size: 17px;
     color: var(--light-gray);
 }
-
+.data p:nth-child(2)
+{
+    color: hsla(0, 0%, 81%, 0.5);
+    font-size: 14px;
+}
+.three .data p:nth-child(2), .five .data p:nth-child(2)
+{
+    color: hsla(217, 19%, 35%, 0.5);
+}
 .transparent-text
 {
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.4);
+    color: hsla(0, 0%, 81%, 0.7);
 }
 .transparent-text2
 {
-    color: rgba(72, 85, 106, 0.6)
+    color: hsla(217, 19%, 35%, 0.7)
 }
 .main > p
 {
@@ -214,5 +222,10 @@ body
     .one
     {
         background-size: 35%;
+    }
+    .wrapper
+    {
+        width: 85%;
+        margin: 7% 0;
     }
 }
