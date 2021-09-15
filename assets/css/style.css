@@ -220,6 +220,10 @@ body
     {
         display: block;
     }
+    .wrapper > div
+    {
+        padding: 2.4em;
+    }
     .one,.two,.three,.four,.five
     {
         margin-top: 5%;
@@ -229,9 +233,9 @@ body
         /* background-size: 35%;
         background-position-x: 85%; */
 
-        background-position-x: 92%;
-        background-size: 100px;
-        background-position-y: 22px;
+        background-position-x: 94%;
+        background-size: 106px;
+        background-position-y: 13px;
     }
     .wrapper
     {
