@@ -148,7 +148,8 @@ body
 {
     .one
     {
-        background-size: 21%;
+        background-position-x: 83%;
+        background-size: 126px;
     }
     .wrapper
     {
@@ -215,10 +216,6 @@ body
 }
 @media screen and (max-width: 865px)
 {
-    .one
-    {
-        background-size: 24%;
-    }
     .wrapper
     {
         display: block;
@@ -229,8 +226,12 @@ body
     }
     .one
     {
-        background-size: 35%;
-        background-position-x: 85%;
+        /* background-size: 35%;
+        background-position-x: 85%; */
+
+        background-position-x: 92%;
+        background-size: 100px;
+        background-position-y: 22px;
     }
     .wrapper
     {
