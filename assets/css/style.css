@@ -102,10 +102,33 @@ body
     border-radius: 50%;
     border: 2.5px solid rgba(255, 255, 255, 0.5);
 }
-.data
+.data, .data-johnatan
 {
     margin-left: 20px;
 }
+.data-johnatan p:nth-child(1)
+{
+    font-size: 17px;
+    color: var(--light-grayish-blue);
+}
+.data-johnatan p:nth-child(2)
+{
+    font-size: 14px;
+    color: hsla(210, 46%, 95%, 0.5);
+}
+.data-johnatan-main
+{
+    color: var(--light-grayish-blue);
+}
+.transparent-text3
+{
+    color: hsla(210, 46%, 95%, 0.7);
+}
+
+
+
+
+
 .data p:nth-child(1)
 {
     font-size: 17px;
@@ -172,15 +195,15 @@ body
     {
         grid-row: 1/5;
     }
-    .data
+    .data, .data-johnatan
     {
         margin-left: 15px;
     }
-    .data p:nth-child(1)
+    .data p:nth-child(1), .data-johnatan p:nth-child(1)
     {
         font-size: 13px;
     }
-    .data p:nth-child(2)
+    .data p:nth-child(2), .data-johnatan p:nth-child(2  )
     {
         font-size: 12px;
     }
