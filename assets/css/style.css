@@ -63,8 +63,10 @@ body
     grid-row: 1/4;
     background-image: url(../images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position-x: 75%;
-    background-size: 17%;
+    /* background-position-x: 75%;
+    background-size: 17%; */
+    background-position-x: 86.5%;
+    background-size: 140px;
 }
 
 .two 
@@ -258,9 +260,14 @@ body
         /* background-size: 35%;
         background-position-x: 85%; */
 
-        background-position-x: 94%;
+        /* background-position-x: 94%;
         background-size: 106px;
-        background-position-y: 13px;
+        background-position-y: 13px; */
+
+        background-position-x: 92%;
+        background-size: 38%;
+        background-position-y: 0px;
+        
     }
     .wrapper
     {
